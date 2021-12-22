@@ -1,6 +1,7 @@
 # SimPet
 
 Помощник в уходе за домашними питомцами в стиле популярной игры "The Sims".
+https://github.com/AppleSan27/SimPet/blob/serverX/server/readme-assest/preview.gif
 
 
 
