@@ -14,5 +14,5 @@ https://github.com/AppleSan27/SimPet/blob/serverX/server/readme-assest/preview.g
 - Sequelize
 
 Collaborators: 
-- https://github.com/HoldTheWorld 
+- https://github.com/Erliokos
 - https://github.com/CainStr
