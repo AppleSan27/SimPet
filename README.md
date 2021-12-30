@@ -15,4 +15,4 @@ https://github.com/AppleSan27/SimPet/blob/serverX/server/readme-assest/preview.g
 
 Collaborators: 
 - https://github.com/Erliokos
-- https://github.com/CainStr
+- https://github.com/GarriGarrison
