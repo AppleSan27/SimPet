@@ -5,15 +5,25 @@ require('dotenv').config();
 
 const signUp = async (req, res) => {
   if (!req.body)
-  return res.sendStatus(400);
+    return res.sendStatus(400);
   
   const saltRounds = Number(process.env.SALT_ROUNDS);
   const { name, email, password } = req.body;
 
+  
   if (name && email && password) {
     try {
+      const findUser = await User.findOne({
+        raw: true,
+        where: {
+          email
+        }
+      });
+      
+      if (findUser)
+        return res.sendStatus(409);
+      
       const hashedpass = await bcrypt.hash(password, saltRounds);
-
       const addUser = await User.create({
         // id: Date.now(),  //v4(),
         name,

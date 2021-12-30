@@ -3,8 +3,8 @@
  * Path: "server"
  */
  
-const RELEASE = 12;
-const DATE = '16.12.2021';
+const RELEASE = 13;
+const DATE = '29.12.2021';
 
 
 const express = require('express');
